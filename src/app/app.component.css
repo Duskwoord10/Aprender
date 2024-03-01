@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .container {
   background-color: #ee4266;
   margin-top: 100px;
@@ -18,21 +19,24 @@
   font-family: "Century Gothic", sans-serif;
   border-radius: 15px;
 }
+
 p {
   margin-right: 200px;
 }
+
 .col {
   display: flex;
   flex-direction: column; /* Cambiar la dirección del flexbox a columna */
   margin-top: 20px; /* Ajustar el margen superior para separar los elementos */
 }
+
 .btn {
   margin-right: 25px;
-  .btn-secondary {
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-  }
+}
+.btn .btn-secondary {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
 }
 
 .btn {
@@ -46,4 +50,4 @@ p {
 
 .btn-group {
   margin-left: 50px; /* Ajustar el margen izquierdo del grupo de botones */
-}
+}/*# sourceMappingURL=app.component.css.map */
